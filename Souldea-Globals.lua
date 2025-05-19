@@ -127,7 +127,7 @@ function define_global_sets()
   sets.org.global = {}
   sets.org.global[1] = {ring1="Warp Ring"}
   include('Global-Augments.lua')
-  include('Silverhound-Augments.lua')
+  include('Souldea-Augments.lua')
 end
 
 windower.register_event('zone change', function()
@@ -170,4 +170,4 @@ function actual_cost(spell)
   return cost
 end
 
-send_command('alias mount input /mount "Tiger" <me>')
+send_command('alias mount input /mount "Crab" <me>')
